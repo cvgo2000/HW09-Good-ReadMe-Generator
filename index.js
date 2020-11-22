@@ -104,7 +104,7 @@ inquirer
     }
 
     var filename =
-      "./CreatedREADME/" + data.projectTitle.replace(/\s/g, "") + "_README.md";
+      "./SampleREADME/" + data.projectTitle.replace(/\s/g, "") + "_README.md";
 
     fs.writeFile(
       filename,
